@@ -26,6 +26,8 @@ spring:
     use-hal-as-default-json-media-type: false
     
 ---
+spring:
+  profiles: dev
 management:
   endpoints:
     web:
@@ -35,8 +37,6 @@ management:
     enabled: false
 server:
   port: 8082
-spring:
-  profiles: server1
   application:
     name: costumer
   cloud:
