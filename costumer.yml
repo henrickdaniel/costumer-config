@@ -26,13 +26,13 @@ spring:
     use-hal-as-default-json-media-type: false
     
  ---
- spring:
-   profiles: server1
- server:
-   port: 8083
+spring:
+  profiles: server1
+server:
+  port: 8083
 
  ---
- spring:
-   profiles: server2
- server:
-   port: 8084
+spring:
+  profiles: server2
+server:
+  port: 8084
